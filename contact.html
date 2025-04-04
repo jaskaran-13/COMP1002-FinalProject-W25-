@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Nintendo - Game Boy</title>
+    <meta name="description" content="Contact Nintendo for Game Boy support and inquiries">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="global-header"></header>
+    
+    <main class="contact-main">
+        <section class="contact-info">
+            <h1>Contact Nintendo</h1>
+            <div class="info-grid">
+                <div class="info-item">
+                    <h2>Customer Support</h2>
+                    <p>Phone: 1-800-255-3700</p>
+                    <p>Email: support@nintendo.com</p>
+                    <p>Hours: Mon-Fri, 6AM-7PM PT</p>
+                </div>
+                <div class="info-item">
+                    <h2>Corporate Office</h2>
+                    <p>Nintendo of America</p>
+                    <p>4600 150th Ave NE</p>
+                    <p>Redmond, WA 98052</p>
+                </div>
+                <div class="info-item">
+                    <h2>Game Boy Warranty</h2>
+                    <p>1-year limited warranty</p>
+                    <p>Register your product online</p>
+                    <p>Repair services available</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="support">Product Support</option>
+                        <option value="warranty">Warranty Inquiry</option>
+                        <option value="feedback">Product Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How long do Game Boy batteries last?</h3>
+                <p>The original Game Boy runs for about 15-30 hours on 4 AA batteries, depending on usage.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are Game Boy games region locked?</h3>
+                <p>No, Game Boy games are not region locked and will work on any Game Boy system worldwide.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I connect my Game Boy to a TV?</h3>
+                <p>The original Game Boy doesn't have TV output, but the Super Game Boy adapter for SNES allows you to play Game Boy games on your television.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="global-footer"></footer>
+    
+    <!-- Load JavaScript files -->
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
